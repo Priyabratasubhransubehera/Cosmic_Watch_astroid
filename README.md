@@ -137,7 +137,7 @@ npm run build
 ## 🆘 Support
 
 
-- Check the url on :- [https://my-site-itmfj8x4-psubhransubehera.wix-vibe-site.com)
+- Check the url on :- [https://my-site-itmfj8x4-psubhransubehera.wix-vibe-site.com]
 
  
 - CREATED BY :- OMKAR MOHANTY,SMUTIREKHA DAS,PRIYABRATA SUBHRANSU BEHERA ...
