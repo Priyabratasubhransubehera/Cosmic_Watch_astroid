@@ -1,6 +1,6 @@
-# Cosmic_Watch stroid-risk-taker
+# ☄️ Cosmic_Watch stroid-risk-taker
 
-A modern, full-featured Wix Astro template built with React, TypeScript, and Tailwind CSS. This template provides a solid foundation for building dynamic, interactive websites with Wix's powerful ecosystem.
+A modern, full-featured Astro template built with React, TypeScript, and Tailwind CSS. It offers a strong foundation for building fast, dynamic, and interactive websites with a scalable and flexible architecture.
 
 ## 🚀 Features
 
