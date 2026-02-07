@@ -144,7 +144,7 @@ export default function HomePage() {
              className="absolute inset-0 opacity-40"
            >
              <Image 
-               src="https://static.wixstatic.com/media/12d367_71ebdd7141d041e4be3d91d80d4578dd~mv2.png?id=1" 
+               src="https://static.wixstatic.com/media/d5a106_e58a401e4f884e7f89579deebbfc6f9d~mv2.png?originWidth=1600&originHeight=768" 
                alt="Cosmic Background" 
                className="w-full h-full object-cover object-center filter brightness-50 contrast-125 saturate-50"
              />
@@ -430,7 +430,7 @@ export default function HomePage() {
       <section className="relative w-full py-32 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image 
-            src="https://static.wixstatic.com/media/12d367_71ebdd7141d041e4be3d91d80d4578dd~mv2.png?id=2" 
+            src="https://static.wixstatic.com/media/d5a106_9b4ed2fbabb4453eb3a707464d2ee9ac~mv2.png?originWidth=768&originHeight=768" 
             alt="Deep Space" 
             className="w-full h-full object-cover opacity-20"
           />
