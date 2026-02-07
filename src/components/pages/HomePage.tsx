@@ -10,6 +10,7 @@ import AsteroidCard from '@/components/AsteroidCard';
 import RiskBadge from '@/components/RiskBadge';
 import AlertBanner from '@/components/AlertBanner';
 import StarfieldBackground from '@/components/StarfieldBackground';
+import RadarSystem from '@/components/RadarSystem';
 import { Image } from '@/components/ui/image';
 
 // --- Types ---
@@ -422,6 +423,30 @@ export default function HomePage() {
             </motion.div>
           )}
         </div>
+      </section>
+
+      <SectionDivider />
+
+      {/* --- RADAR SYSTEM SECTION --- */}
+      <section className="relative w-full max-w-[120rem] mx-auto px-6 py-24">
+        <motion.div
+          initial={{ opacity: 0, x: -20 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          viewport={{ once: true }}
+          className="flex items-center gap-3 mb-4"
+        >
+          <div className="w-2 h-2 bg-accent-electric-blue rounded-full animate-ping" />
+          <span className="text-accent-electric-blue font-mono text-sm tracking-widest">DETECTION ARRAY</span>
+        </motion.div>
+        <h2 className="font-heading text-5xl md:text-6xl font-bold text-white mb-12">
+          <GlitchText text="RADAR TRACKING" />
+        </h2>
+        
+        <RadarSystem 
+          asteroids={filteredAsteroids}
+          selectedAsteroid={selectedAsteroid}
+          onAsteroidSelect={setSelectedAsteroid}
+        />
       </section>
 
       <SectionDivider />
