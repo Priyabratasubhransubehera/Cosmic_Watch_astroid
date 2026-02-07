@@ -37,7 +37,6 @@ A modern, full-featured Wix Astro template built with React, TypeScript, and Tai
 
 - Node.js (version 18 or higher)
 - npm or yarn package manager
-- Wix account and site
 
 ### Installation
 
@@ -138,10 +137,7 @@ npm run build
 
 For support and questions:
 
-- Check the [Wix Developer Documentation](https://dev.wix.com/)
-- Review the [Astro Documentation](https://docs.astro.build/)
+- Check the [https://my-site-itmfj8x4-psubhransubehera.wix-vibe-site.com)
 
 
----
-
-Built with ❤️ using Wix Vibe, Astro, and modern web technologies.
+THANK YOU....
