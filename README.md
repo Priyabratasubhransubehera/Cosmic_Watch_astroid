@@ -37,6 +37,7 @@ A modern, full-featured Wix Astro template built with React, TypeScript, and Tai
 
 - Node.js (version 18 or higher)
 - npm or yarn package manager
+- 
 
 ### Installation
 
