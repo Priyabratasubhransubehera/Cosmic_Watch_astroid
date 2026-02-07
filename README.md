@@ -136,9 +136,12 @@ npm run build
 
 ## 🆘 Support
 
--CREATED BY :-PRIYABRATA SUBHRANSU BEHERA & HIS TEAM .
 
 - Check the url on :- [https://my-site-itmfj8x4-psubhransubehera.wix-vibe-site.com)
+
+ 
+- CREATED BY :- OMKAR MOHANTY,SMUTIREKHA DAS,PRIYABRATA SUBHRANSU BEHERA ...
+
 
 
 THANK YOU....
