@@ -11,6 +11,7 @@ import RiskBadge from '@/components/RiskBadge';
 import AlertBanner from '@/components/AlertBanner';
 import StarfieldBackground from '@/components/StarfieldBackground';
 import RadarSystem from '@/components/RadarSystem';
+import MoonAsteroidScene from '@/components/MoonAsteroidScene';
 import { Image } from '@/components/ui/image';
 
 // --- Types ---
@@ -447,6 +448,55 @@ export default function HomePage() {
           selectedAsteroid={selectedAsteroid}
           onAsteroidSelect={setSelectedAsteroid}
         />
+      </section>
+
+      <SectionDivider />
+
+      {/* --- 3D MOON & ASTEROID ANIMATION SECTION --- */}
+      <section className="relative w-full max-w-[120rem] mx-auto px-6 py-24">
+        <motion.div
+          initial={{ opacity: 0, x: -20 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          viewport={{ once: true }}
+          className="flex items-center gap-3 mb-4"
+        >
+          <div className="w-2 h-2 bg-accent-electric-blue rounded-full animate-ping" />
+          <span className="text-accent-electric-blue font-mono text-sm tracking-widest">3D VISUALIZATION</span>
+        </motion.div>
+        <h2 className="font-heading text-5xl md:text-6xl font-bold text-white mb-12">
+          <GlitchText text="LUNAR IMPACT DYNAMICS" />
+        </h2>
+        
+        <motion.div
+          initial={{ opacity: 0, scale: 0.95 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.8 }}
+          className="w-full"
+        >
+          <MoonAsteroidScene />
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.8, delay: 0.3 }}
+          className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6"
+        >
+          <div className="holographic-card p-6 rounded-lg">
+            <div className="text-accent-cyan font-mono text-sm mb-2 uppercase tracking-wider">Moon Dynamics</div>
+            <p className="text-secondary-foreground text-sm">Real-time lunar surface analysis with crater detection and gravitational field mapping.</p>
+          </div>
+          <div className="holographic-card p-6 rounded-lg">
+            <div className="text-accent-cyan font-mono text-sm mb-2 uppercase tracking-wider">Asteroid Trajectory</div>
+            <p className="text-secondary-foreground text-sm">Orbital mechanics simulation showing approach vectors and collision probability zones.</p>
+          </div>
+          <div className="holographic-card p-6 rounded-lg">
+            <div className="text-accent-cyan font-mono text-sm mb-2 uppercase tracking-wider">Particle Field</div>
+            <p className="text-secondary-foreground text-sm">Debris and cosmic dust visualization in the Earth-Moon system.</p>
+          </div>
+        </motion.div>
       </section>
 
       <SectionDivider />
