@@ -136,9 +136,9 @@ npm run build
 
 ## 🆘 Support
 
-For support and questions:
+-CREATED BY :-PRIYABRATA SUBHRANSU BEHERA & HIS TEAM .
 
-- Check the [https://my-site-itmfj8x4-psubhransubehera.wix-vibe-site.com)
+- Check the url on :- [https://my-site-itmfj8x4-psubhransubehera.wix-vibe-site.com)
 
 
 THANK YOU....
