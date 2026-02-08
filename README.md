@@ -140,7 +140,7 @@ npm run build
 - Check the url on :- [https://my-site-itmfj8x4-psubhransubehera.wix-vibe-site.com]
 
  
-- CREATED BY :- OMKAR MOHANTY,SMUTIREKHA DAS,PRIYABRATA SUBHRANSU BEHERA ...
+- CREATED BY :- PRIYABRATA SUBHRANSU BEHERA ...
 
 
 
